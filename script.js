@@ -1,4 +1,4 @@
 //your JS code here. If required.
-let div=document.getElementById("browserInfo");
+let div=document.getElementById("browser-info");
 let info=navigator.userAgent;
-div.innerText=`You are using ${info}`;
+div.innerText+=` ${info}`;
